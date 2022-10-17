@@ -1,0 +1,197 @@
+
+/*
+#fefefe
+#58acf4
+#105edd
+#0b3075
+*/
+
+@font-face {
+    font-family: PIRATA;
+    src: url(/Fabio-Projects/Fontes/PirataOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: ONEPIECE;
+    src: url(/Fabio-Projects/Fontes/one\ piece\ font.ttf);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+:root{
+ --FonteDestaque: ONEPIECE;
+ --FontePirata: PIRATA;
+ --CorFundo : #fdf4e0;
+}
+
+
+header {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #f1dabb,  #be8d23); 
+    max-height: 200px;
+}
+
+
+header > h1{
+    margin: auto;
+    color: #0e0900;
+    font-size: 50pt;
+    text-align: center;
+    font-family: var(--FonteDestaque);
+}
+
+header > p {
+    font-size: 20pt;
+    font-family: var(--FontePirata);
+    text-align: center;
+}
+
+
+
+nav {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #be8d23;
+    margin: auto;
+    padding: 5px;
+}
+
+
+nav > a {
+    font-size: 15pt;
+    text-decoration: none;
+    color: rgb(53, 30, 8);
+    padding: 8px; 
+}
+
+
+ nav > a:hover {
+    background-color: #f7d19e;
+    padding: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition-duration: 0.3s;
+ }
+
+
+body{
+    font-family: var(--FontePirata), var(--FonteDestaque), Verdana, sans-serif;
+    text-align: justify;
+    background-image: linear-gradient( #555ee0,    #e9a642, rgb(167, 223, 255), rgb(55, 101, 228)) ;
+}
+
+
+h1,h2,h3{
+    color: #140e68;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+main > h1, h2, h3 {
+    font-weight: normal;
+    color: #2b2672;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+main{
+    font-size: 18pt;
+    background-image: linear-gradient(#e4e3c0, rgb(223, 188, 124), #bb9b5b) ;
+    margin: auto;
+    min-width: 200px;
+    max-width: 950px;
+    padding: 20px; 
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    margin-bottom: 5px;
+    line-height: 40px;
+}  
+
+
+main p {
+   padding: 20px;
+   margin-top: 5px;
+   text-indent: 20px;
+}
+
+
+main img#goro {
+    display: block;
+    margin: auto;
+}
+
+
+main img.personagem {
+    max-width: 100%;
+    min-width: 40%;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+main img.fruta{
+    max-width: 100%;
+    min-width: 25%;
+    display: flex;
+    margin: auto;
+}
+
+
+main > h3.tipos {
+    text-align: left;
+}
+
+
+main > ul.list {
+    padding: 20px;
+}
+
+
+a.link:hover {
+    background-color: #bec0e0;
+}
+
+
+ aside > ul {
+    color: #000000;
+    padding: 20px;
+ }
+
+
+ a {
+    text-decoration: none;
+ }
+
+
+a:hover {
+    background-color: #f7d19e;
+    padding: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition-duration: 0.3s;
+    text-decoration: underline;
+ }
+
+
+ footer{
+    margin: auto;
+    padding: 15px;
+    color: white;
+    background-color:rgb(55, 101, 228);
+    text-align: center;
+    min-width: 320px;
+    max-width: 800px;
+ }
+ 
+
+ 
+
+
